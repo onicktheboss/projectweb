@@ -1,0 +1,117 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('img2.jpg');
+
+	float: left;
+	position: relative;
+
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+	animation: fadeinout 5s infinite alternate;
+
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: blue;
+	font-size: 22px;
+	font-family:  'Montserrat', sans-serif;
+}
+
+@keyframes fadeinout{
+
+	0%{background-image: url('img2.jpg');
+
+	}
+	50%{
+		background-image: url('img3.jpg');
+	}
+}
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 600px;
+}
+
+.rightmenu ul li {
+	font-family:  'Montserrat', sans-serif;
+	
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 10px;
+	text-transform: uppercase;
+
+}
+
+#fisrtlist{
+	color: blue;
+}
+
+.rightmenu ul li:hover{
+	color: blue;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:blue;
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family:  'Open Sans', sans-serif;
+	
+}
+.text h1{
+	font-size:62px;
+	font-family:  'Montserrat', sans-serif;
+
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family:'Open Sans', sans-serif;
+}
+.menum{
+
+	width: from 50% to 80%;
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+}
+
